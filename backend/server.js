@@ -3,9 +3,9 @@ import dotenv from "dotenv"
 import { connectDB } from "./config/db.js";
 import Blog from "./model/blog.model.js";
 
-dotenv.config();
-const port = process.env.PORT
-const app = express();
+// dotenv.config();
+// const port = process.env.PORT
+// const app = express();
 
 app.use(express.json())
 
